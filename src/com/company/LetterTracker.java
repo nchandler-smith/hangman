@@ -3,6 +3,7 @@ package com.company;
 public class LetterTracker {
     private String letters = "";
     private String secretWord ="";
+    private int points = 10;
 
     public  String getLetters() {
         return this.letters;
@@ -19,5 +20,9 @@ public class LetterTracker {
 
     public String getSecretWord() {
         return this.secretWord;
+    }
+
+    public int getPoints() {
+        return this.points;
     }
 }

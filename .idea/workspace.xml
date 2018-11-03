@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ea491135-cc0a-4864-8cf6-6fc66620102b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hangman/com/company/LetterTrackerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hangman/com/company/LetterTrackerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hangman/com/company/SecretWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hangman/com/company/SecretWordTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LetterTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LetterTracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LetterTrackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LetterTrackerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SecretWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SecretWordTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,12 +52,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1486" />
+          <entry key="java" value="1774" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1486" />
+          <entry key="JAVA" value="1774" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -91,13 +86,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LetterTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="276">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="e#117#118#0" expanded="true" />
                 <element signature="e#152#153#0" expanded="true" />
                 <element signature="e#438#439#0" expanded="true" />
                 <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LetterTrackerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+            <state relative-caret-position="291">
+              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,7 +184,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541272697754" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541273639516" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -236,6 +232,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LetterTrackerTest.PlayerStartsWith10Points" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hangman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
+      <option name="METHOD_NAME" value="PlayerStartsWith10Points" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LetterTrackerTest.PlayerStartsWith10PointsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hangman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
+      <option name="METHOD_NAME" value="PlayerStartsWith10PointsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LetterTrackerTest.secretWordEqualsNullOnStart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hangman" />
       <extension name="coverage">
@@ -266,53 +294,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecretWordTest.SecretWordEqualsHangmanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hangman" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.SecretWordTest" />
-      <option name="METHOD_NAME" value="SecretWordEqualsHangmanTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SecretWordTest.SecretWordIsNullOnInitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hangman" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.SecretWordTest" />
-      <option name="METHOD_NAME" value="SecretWordIsNullOnInitTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.game" />
       <item itemvalue="JUnit.LetterTrackerTest" />
-      <item itemvalue="JUnit.SecretWordTest.SecretWordIsNullOnInitTest" />
-      <item itemvalue="JUnit.SecretWordTest.SecretWordEqualsHangmanTest" />
       <item itemvalue="JUnit.SecretWordTest" />
       <item itemvalue="JUnit.LetterTrackerTest.secretWordEqualsNullOnStart" />
+      <item itemvalue="JUnit.LetterTrackerTest.PlayerStartsWith10Points" />
+      <item itemvalue="JUnit.LetterTrackerTest.PlayerStartsWith10PointsTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LetterTrackerTest" />
+        <item itemvalue="JUnit.LetterTrackerTest.PlayerStartsWith10PointsTest" />
+        <item itemvalue="JUnit.LetterTrackerTest.PlayerStartsWith10Points" />
         <item itemvalue="JUnit.LetterTrackerTest.secretWordEqualsNullOnStart" />
         <item itemvalue="JUnit.SecretWordTest" />
-        <item itemvalue="JUnit.SecretWordTest.SecretWordEqualsHangmanTest" />
-        <item itemvalue="JUnit.SecretWordTest.SecretWordIsNullOnInitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -327,17 +323,11 @@
       <option name="presentableId" value="Default" />
       <updated>1541266497794</updated>
       <workItem from="1541266505485" duration="986000" />
-      <workItem from="1541268092035" duration="4549000" />
+      <workItem from="1541268092035" duration="5474000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SecretWordTest_SecretWordIsNullOnInitTest - 2018.11.03 at 13h 57m 25s.xml">
-      <configuration name="SecretWordTest.SecretWordIsNullOnInitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecretWordTest_SecretWordEqualsHangmanTest - 2018.11.03 at 14h 04m 05s.xml">
-      <configuration name="SecretWordTest.SecretWordEqualsHangmanTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SecretWordTest - 2018.11.03 at 14h 04m 11s.xml">
       <configuration name="SecretWordTest" configurationId="JUnit" />
     </history-entry>
@@ -362,9 +352,15 @@
     <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 17m 00s.xml">
       <configuration name="LetterTrackerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 18m 19s.xml">
+      <configuration name="LetterTrackerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 23m 21s.xml">
+      <configuration name="LetterTrackerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5535000" />
+    <option name="totallyTimeSpent" value="6460000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,7 +384,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2997159" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2997159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,7 +393,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.328125" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.328125" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -449,13 +445,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/TargetWord.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SecretWordTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -479,23 +468,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LetterTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="276">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
             <element signature="e#117#118#0" expanded="true" />
             <element signature="e#152#153#0" expanded="true" />
             <element signature="e#438#439#0" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LetterTrackerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="291">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

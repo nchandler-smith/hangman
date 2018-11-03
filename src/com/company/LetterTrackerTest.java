@@ -14,7 +14,7 @@ class LetterTrackerTest {
     }
 
     @Test
-    void getLettersReturnA() {
+    void getLettersReturnATest() {
         LetterTracker tracker = new LetterTracker();
 
         tracker.addLetters("A");
@@ -23,7 +23,7 @@ class LetterTrackerTest {
     }
 
     @Test
-    void getLettersReturnB() {
+    void getLettersReturnBTest() {
         LetterTracker tracker = new LetterTracker();
 
         tracker.addLetters("B");
@@ -32,7 +32,7 @@ class LetterTrackerTest {
     }
 
     @Test
-    void getLettersReturnABPadded() {
+    void getLettersReturnABPaddedTest() {
         LetterTracker tracker = new LetterTracker();
 
         tracker.addLetters("A");
@@ -42,10 +42,17 @@ class LetterTrackerTest {
     }
 
     @Test
-    void secretWordEqualsEmptyStringOnStart() {
+    void secretWordEqualsEmptyStringOnStartTest() {
         LetterTracker tracker = new LetterTracker();
 
         assertEquals("", tracker.getSecretWord());
+    }
+
+    @Test
+    void PlayerStartsWith10PointsTest() {
+        LetterTracker tracker = new LetterTracker();
+
+        assertEquals(10, tracker.getPoints());
     }
 
 }
