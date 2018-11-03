@@ -25,4 +25,8 @@ public class LetterTracker {
     public int getPoints() {
         return this.points;
     }
+
+    public void setSecretWord(String wordIn) {
+        this.secretWord = wordIn;
+    }
 }

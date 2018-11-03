@@ -7,14 +7,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class LetterTrackerTest {
 
     @Test
-    void getLettersReturnsEmptyStringOnInitTest() {
+    void GetLettersReturnsEmptyStringOnInitTest() {
         LetterTracker tracker = new LetterTracker();
 
         assertEquals("", tracker.getLetters());
     }
 
     @Test
-    void getLettersReturnATest() {
+    void GetLettersReturnATest() {
         LetterTracker tracker = new LetterTracker();
 
         tracker.addLetters("A");
@@ -23,7 +23,7 @@ class LetterTrackerTest {
     }
 
     @Test
-    void getLettersReturnBTest() {
+    void GetLettersReturnBTest() {
         LetterTracker tracker = new LetterTracker();
 
         tracker.addLetters("B");
@@ -32,7 +32,7 @@ class LetterTrackerTest {
     }
 
     @Test
-    void getLettersReturnABPaddedTest() {
+    void GetLettersReturnABPaddedTest() {
         LetterTracker tracker = new LetterTracker();
 
         tracker.addLetters("A");
@@ -42,7 +42,7 @@ class LetterTrackerTest {
     }
 
     @Test
-    void secretWordEqualsEmptyStringOnStartTest() {
+    void SecretWordEqualsEmptyStringOnStartTest() {
         LetterTracker tracker = new LetterTracker();
 
         assertEquals("", tracker.getSecretWord());
@@ -55,4 +55,12 @@ class LetterTrackerTest {
         assertEquals(10, tracker.getPoints());
     }
 
+    @Test
+    void SecretWordSetToHangmanTest() {
+        LetterTracker tracker = new LetterTracker();
+
+        tracker.setSecretWord("Hangman");
+
+        assertEquals("Hangman", tracker.getSecretWord());
+    }
 }
