@@ -8,6 +8,6 @@ public class LetterTracker {
     }
 
     public void addLetters(String inputLetter) {
-        this.letters = inputLetter;
+        this.letters += inputLetter;
     }
 }

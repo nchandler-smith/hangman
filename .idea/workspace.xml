@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea491135-cc0a-4864-8cf6-6fc66620102b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/LetterTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LetterTracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LetterTrackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LetterTrackerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,12 +50,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="259" />
+          <entry key="java" value="374" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="259" />
+          <entry key="JAVA" value="374" />
         </counts>
       </usages-collector>
     </session>
@@ -72,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LetterTracker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -87,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LetterTrackerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="279">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,8 +114,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/LetterTrackerTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/LetterTracker.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LetterTrackerTest.java" />
       </list>
     </option>
   </component>
@@ -169,7 +168,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541268625924" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541268955263" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -196,16 +195,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.LetterTrackerTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="hangman" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LetterTrackerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hangman" />
       <extension name="coverage">
@@ -231,6 +220,22 @@
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
       <option name="METHOD_NAME" value="getLettersReturnA" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LetterTrackerTest.getLettersReturnAB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hangman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
+      <option name="METHOD_NAME" value="getLettersReturnAB" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -269,17 +274,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.LetterTrackerTest.getLettersReturnsNullOnInitTest" />
       <item itemvalue="JUnit.LetterTrackerTest" />
       <item itemvalue="JUnit.LetterTrackerTest.getLettersReturnA" />
       <item itemvalue="JUnit.LetterTrackerTest.getLettersReturnB" />
+      <item itemvalue="JUnit.LetterTrackerTest.getLettersReturnAB" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LetterTrackerTest" />
-        <item itemvalue="JUnit.LetterTrackerTest.getLettersReturnsNullOnInitTest" />
+        <item itemvalue="JUnit.LetterTrackerTest.getLettersReturnAB" />
         <item itemvalue="JUnit.LetterTrackerTest.getLettersReturnB" />
+        <item itemvalue="JUnit.LetterTrackerTest.getLettersReturnsNullOnInitTest" />
         <item itemvalue="JUnit.LetterTrackerTest.getLettersReturnA" />
       </list>
     </recent_temporary>
@@ -295,17 +301,11 @@
       <option name="presentableId" value="Default" />
       <updated>1541266497794</updated>
       <workItem from="1541266505485" duration="986000" />
-      <workItem from="1541268092035" duration="525000" />
+      <workItem from="1541268092035" duration="816000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LetterTrackerTest_getLettersReturnsNullOnInitTest - 2018.11.03 at 12h 50m 45s.xml">
-      <configuration name="LetterTrackerTest.getLettersReturnsNullOnInitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest_getLettersReturnsNullOnInitTest - 2018.11.03 at 13h 01m 40s.xml">
-      <configuration name="LetterTrackerTest.getLettersReturnsNullOnInitTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LetterTrackerTest - 2018.11.03 at 13h 02m 24s.xml">
       <configuration name="LetterTrackerTest" configurationId="JUnit" />
     </history-entry>
@@ -330,9 +330,15 @@
     <history-entry file="LetterTrackerTest - 2018.11.03 at 13h 10m 02s.xml">
       <configuration name="LetterTrackerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LetterTrackerTest - 2018.11.03 at 13h 10m 27s.xml">
+      <configuration name="LetterTrackerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest_getLettersReturnB - 2018.11.03 at 13h 14m 19s.xml">
+      <configuration name="LetterTrackerTest.getLettersReturnB" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1511000" />
+    <option name="totallyTimeSpent" value="1802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="40" width="1083" height="734" extended-state="0" />
@@ -375,23 +381,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LetterTrackerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LetterTracker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -401,6 +390,23 @@
             <element signature="e#152#153#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LetterTrackerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

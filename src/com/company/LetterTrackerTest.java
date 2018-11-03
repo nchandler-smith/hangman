@@ -26,6 +26,15 @@ class LetterTrackerTest {
         LetterTracker tracker = new LetterTracker();
         String BString = "B";
         tracker.addLetters("B");
+        assertEquals(BString, tracker.getLetters());
+    }
+
+    @Test
+    void getLettersReturnAB() {
+        LetterTracker tracker = new LetterTracker();
+        tracker.addLetters("A");
+        tracker.addLetters("B");
+        assertEquals("AB", tracker.getLetters());
     }
 
 }
