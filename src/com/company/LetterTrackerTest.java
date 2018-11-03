@@ -14,34 +14,6 @@ class LetterTrackerTest {
     }
 
     @Test
-    void GetGuessesReturnATest() {
-        LetterTracker tracker = new LetterTracker();
-
-        tracker.addGuess("A");
-
-        assertEquals("A", tracker.getGuesses());
-    }
-
-    @Test
-    void GetGuessesReturnBTest() {
-        LetterTracker tracker = new LetterTracker();
-
-        tracker.addGuess("B");
-
-        assertEquals("B", tracker.getGuesses());
-    }
-
-    @Test
-    void GetGuessesReturnABPaddedTest() {
-        LetterTracker tracker = new LetterTracker();
-
-        tracker.addGuess("A");
-        tracker.addGuess("B");
-
-        assertEquals("A B", tracker.getGuesses());
-    }
-
-    @Test
     void SecretWordEqualsEmptyStringOnStartTest() {
         LetterTracker tracker = new LetterTracker();
 
@@ -104,5 +76,48 @@ class LetterTrackerTest {
         }
 
         assertTrue(tracker.getGameIsFinished());
+    }
+
+    @Test
+    void GuesshGeth______(){
+        LetterTracker tracker = new LetterTracker();
+        tracker.setSecretWord("hangman");
+
+        tracker.guessLetter("h");
+
+        assertEquals("h______", tracker.getCorrectLetters());
+    }
+
+    @Test
+    void GuessaGet_a___a_(){
+        LetterTracker tracker = new LetterTracker();
+        tracker.setSecretWord("hangman");
+
+        tracker.guessLetter("a");
+
+        assertEquals("_a___a_", tracker.getCorrectLetters());
+    }
+
+    @Test
+    void IndicateGameFinishedOnWin(){
+        LetterTracker tracker = new LetterTracker();
+        tracker.setSecretWord("ab");
+
+        tracker.guessLetter("a");
+        tracker.guessLetter("b");
+        System.out.println(tracker.getSecretWord());
+        System.out.println(tracker.getCorrectLetters());
+
+        assertTrue(tracker.getGameIsFinished());
+    }
+
+    @Test
+    void IndicateWinnderOnWin() {
+        LetterTracker tracker = new LetterTracker();
+        tracker.setSecretWord("a");
+
+        tracker.guessLetter("a");
+
+        assertTrue(tracker.getIsWinner());
     }
 }

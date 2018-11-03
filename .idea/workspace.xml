@@ -52,12 +52,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2798" />
+          <entry key="java" value="4625" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2798" />
+          <entry key="JAVA" value="4625" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -74,11 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="120">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LetterTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="585">
+              <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
               <folding>
                 <element signature="e#117#118#0" expanded="true" />
                 <element signature="e#152#153#0" expanded="true" />
@@ -95,20 +95,22 @@
                 <element signature="e#459#460#0" expanded="true" />
                 <element signature="e#512#513#0" expanded="true" />
                 <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#1352#1353#0" expanded="true" />
+                <element signature="e#1391#1392#0" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="e#1474#1475#0" expanded="true" />
+                <element signature="e#2037#2038#0" expanded="true" />
+                <element signature="e#2072#2073#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LetterTrackerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="326">
+              <caret line="120" column="26" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,9 +136,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/SecretWord.java" />
         <option value="$PROJECT_DIR$/src/com/company/SecretWordTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/LetterTracker.java" />
         <option value="$PROJECT_DIR$/src/com/company/LetterTrackerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LetterTracker.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
@@ -147,8 +149,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="583" />
-    <option name="y" value="91" />
+    <option name="x" value="615" />
+    <option name="y" value="217" />
     <option name="width" value="1083" />
     <option name="height" value="796" />
   </component>
@@ -189,7 +191,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541276479292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541282064870" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -215,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LetterTrackerTest">
+  <component name="RunManager" selected="Application.game">
     <configuration name="game" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="hangman" />
@@ -237,7 +239,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterTrackerTest.CorrectGuessGameDoesNotEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LetterTrackerTest.GuessaGet_a___a_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hangman" />
       <extension name="coverage">
         <pattern>
@@ -247,13 +249,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
-      <option name="METHOD_NAME" value="CorrectGuessGameDoesNotEnd" />
+      <option name="METHOD_NAME" value="GuessaGet_a___a_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterTrackerTest.CorrectGuessRemainsAt10PointsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LetterTrackerTest.GuesshGeth______" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hangman" />
       <extension name="coverage">
         <pattern>
@@ -263,13 +265,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
-      <option name="METHOD_NAME" value="CorrectGuessRemainsAt10PointsTest" />
+      <option name="METHOD_NAME" value="GuesshGeth______" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterTrackerTest.GameFinishesWhen0PointsRemain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LetterTrackerTest.IndicateGameFinishedOnWin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hangman" />
       <extension name="coverage">
         <pattern>
@@ -279,13 +281,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
-      <option name="METHOD_NAME" value="GameFinishesWhen0PointsRemain" />
+      <option name="METHOD_NAME" value="IndicateGameFinishedOnWin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterTrackerTest.IncorrectGuessLoses1Point" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LetterTrackerTest.IndicateWinnderOnWin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hangman" />
       <extension name="coverage">
         <pattern>
@@ -295,7 +297,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
-      <option name="METHOD_NAME" value="IncorrectGuessLoses1Point" />
+      <option name="METHOD_NAME" value="IndicateWinnderOnWin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -304,18 +306,18 @@
     <list>
       <item itemvalue="Application.game" />
       <item itemvalue="JUnit.LetterTrackerTest" />
-      <item itemvalue="JUnit.LetterTrackerTest.CorrectGuessRemainsAt10PointsTest" />
-      <item itemvalue="JUnit.LetterTrackerTest.IncorrectGuessLoses1Point" />
-      <item itemvalue="JUnit.LetterTrackerTest.CorrectGuessGameDoesNotEnd" />
-      <item itemvalue="JUnit.LetterTrackerTest.GameFinishesWhen0PointsRemain" />
+      <item itemvalue="JUnit.LetterTrackerTest.GuesshGeth______" />
+      <item itemvalue="JUnit.LetterTrackerTest.GuessaGet_a___a_" />
+      <item itemvalue="JUnit.LetterTrackerTest.IndicateGameFinishedOnWin" />
+      <item itemvalue="JUnit.LetterTrackerTest.IndicateWinnderOnWin" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LetterTrackerTest" />
-        <item itemvalue="JUnit.LetterTrackerTest.GameFinishesWhen0PointsRemain" />
-        <item itemvalue="JUnit.LetterTrackerTest.CorrectGuessGameDoesNotEnd" />
-        <item itemvalue="JUnit.LetterTrackerTest.IncorrectGuessLoses1Point" />
-        <item itemvalue="JUnit.LetterTrackerTest.CorrectGuessRemainsAt10PointsTest" />
+        <item itemvalue="JUnit.LetterTrackerTest.IndicateWinnderOnWin" />
+        <item itemvalue="JUnit.LetterTrackerTest.IndicateGameFinishedOnWin" />
+        <item itemvalue="JUnit.LetterTrackerTest.GuessaGet_a___a_" />
+        <item itemvalue="JUnit.LetterTrackerTest.GuesshGeth______" />
       </list>
     </recent_temporary>
   </component>
@@ -330,44 +332,44 @@
       <option name="presentableId" value="Default" />
       <updated>1541266497794</updated>
       <workItem from="1541266505485" duration="986000" />
-      <workItem from="1541268092035" duration="8251000" />
+      <workItem from="1541268092035" duration="13850000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 53m 52s.xml">
+    <history-entry file="LetterTrackerTest_IndicateGameFinishedOnWin - 2018.11.03 at 16h 39m 58s.xml">
+      <configuration name="LetterTrackerTest.IndicateGameFinishedOnWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest_IndicateGameFinishedOnWin - 2018.11.03 at 16h 41m 08s.xml">
+      <configuration name="LetterTrackerTest.IndicateGameFinishedOnWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest_IndicateGameFinishedOnWin - 2018.11.03 at 16h 43m 38s.xml">
+      <configuration name="LetterTrackerTest.IndicateGameFinishedOnWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest_IndicateGameFinishedOnWin - 2018.11.03 at 16h 44m 16s.xml">
+      <configuration name="LetterTrackerTest.IndicateGameFinishedOnWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest_IndicateGameFinishedOnWin - 2018.11.03 at 16h 45m 36s.xml">
+      <configuration name="LetterTrackerTest.IndicateGameFinishedOnWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest_IndicateGameFinishedOnWin - 2018.11.03 at 16h 47m 09s.xml">
+      <configuration name="LetterTrackerTest.IndicateGameFinishedOnWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest_IndicateWinnderOnWin - 2018.11.03 at 16h 51m 28s.xml">
+      <configuration name="LetterTrackerTest.IndicateWinnderOnWin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest - 2018.11.03 at 16h 51m 54s.xml">
       <configuration name="LetterTrackerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LetterTrackerTest_CorrectGuessGameDoesNotEnd - 2018.11.03 at 14h 59m 16s.xml">
-      <configuration name="LetterTrackerTest.CorrectGuessGameDoesNotEnd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 59m 21s.xml">
+    <history-entry file="LetterTrackerTest - 2018.11.03 at 16h 52m 10s.xml">
       <configuration name="LetterTrackerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LetterTrackerTest_CorrectGuessGameDoesNotEnd - 2018.11.03 at 15h 00m 50s.xml">
-      <configuration name="LetterTrackerTest.CorrectGuessGameDoesNotEnd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest - 2018.11.03 at 15h 00m 57s.xml">
-      <configuration name="LetterTrackerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest - 2018.11.03 at 15h 04m 10s.xml">
-      <configuration name="LetterTrackerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest_GameFinishesWhen0PointsRemain - 2018.11.03 at 15h 04m 21s.xml">
-      <configuration name="LetterTrackerTest.GameFinishesWhen0PointsRemain" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest_GameFinishesWhen0PointsRemain - 2018.11.03 at 15h 05m 08s.xml">
-      <configuration name="LetterTrackerTest.GameFinishesWhen0PointsRemain" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest - 2018.11.03 at 15h 05m 12s.xml">
-      <configuration name="LetterTrackerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest - 2018.11.03 at 15h 19m 36s.xml">
+    <history-entry file="LetterTrackerTest - 2018.11.03 at 16h 52m 11s.xml">
       <configuration name="LetterTrackerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9237000" />
+    <option name="totallyTimeSpent" value="14836000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,7 +381,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="583" y="91" width="1083" height="796" extended-state="0" />
+    <frame x="615" y="217" width="1083" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2545629" />
@@ -475,17 +477,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/LetterTrackerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="326">
+          <caret line="120" column="26" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LetterTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="585">
+          <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
           <folding>
             <element signature="e#117#118#0" expanded="true" />
             <element signature="e#152#153#0" expanded="true" />
@@ -493,21 +498,20 @@
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#512#513#0" expanded="true" />
             <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2072#2073#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LetterTrackerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
         </state>
       </provider>
     </entry>
