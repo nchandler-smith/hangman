@@ -16,9 +16,8 @@ class LetterTrackerTest {
     @Test
     void getLettersReturnA() {
         LetterTracker tracker = new LetterTracker();
-        String AString = "A";
         tracker.addLetters("A");
-        assertEquals(AString, tracker.getLetters());
+        assertEquals("A", tracker.getLetters());
     }
 
     @Test
@@ -30,11 +29,11 @@ class LetterTrackerTest {
     }
 
     @Test
-    void getLettersReturnAB() {
+    void getLettersReturnABPadded() {
         LetterTracker tracker = new LetterTracker();
         tracker.addLetters("A");
         tracker.addLetters("B");
-        assertEquals("AB", tracker.getLetters());
+        assertEquals("A B", tracker.getLetters());
     }
 
 }
