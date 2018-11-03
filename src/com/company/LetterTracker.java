@@ -7,4 +7,7 @@ public class LetterTracker {
         return this.letters;
     }
 
+    public void addLetters(String inputLetter) {
+        this.letters = inputLetter;
+    }
 }
