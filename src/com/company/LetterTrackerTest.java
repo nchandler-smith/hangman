@@ -7,38 +7,38 @@ import static org.junit.jupiter.api.Assertions.*;
 class LetterTrackerTest {
 
     @Test
-    void GetLettersReturnsEmptyStringOnInitTest() {
+    void GetGuessesReturnsEmptyStringOnInitTest() {
         LetterTracker tracker = new LetterTracker();
 
-        assertEquals("", tracker.getLetters());
+        assertEquals("", tracker.getGuesses());
     }
 
     @Test
-    void GetLettersReturnATest() {
+    void GetGuessesReturnATest() {
         LetterTracker tracker = new LetterTracker();
 
-        tracker.addLetters("A");
+        tracker.addGuess("A");
 
-        assertEquals("A", tracker.getLetters());
+        assertEquals("A", tracker.getGuesses());
     }
 
     @Test
-    void GetLettersReturnBTest() {
+    void GetGuessesReturnBTest() {
         LetterTracker tracker = new LetterTracker();
 
-        tracker.addLetters("B");
+        tracker.addGuess("B");
 
-        assertEquals("B", tracker.getLetters());
+        assertEquals("B", tracker.getGuesses());
     }
 
     @Test
-    void GetLettersReturnABPaddedTest() {
+    void GetGuessesReturnABPaddedTest() {
         LetterTracker tracker = new LetterTracker();
 
-        tracker.addLetters("A");
-        tracker.addLetters("B");
+        tracker.addGuess("A");
+        tracker.addGuess("B");
 
-        assertEquals("A B", tracker.getLetters());
+        assertEquals("A B", tracker.getGuesses());
     }
 
     @Test
@@ -92,5 +92,17 @@ class LetterTrackerTest {
         tracker.guessLetter("h");
 
         assertFalse(tracker.getGameIsFinished());
+    }
+
+    @Test
+    void GameFinishesWhen0PointsRemain(){
+        LetterTracker tracker = new LetterTracker();
+        tracker.setSecretWord("hangman");
+
+        for(int i=0; i<10; i++) {
+            tracker.guessLetter("z");
+        }
+
+        assertTrue(tracker.getGameIsFinished());
     }
 }

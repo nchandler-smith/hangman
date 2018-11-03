@@ -1,21 +1,21 @@
 package com.company;
 
 public class LetterTracker {
-    public boolean gameIsFinished;
-    private String letters = "";
+    public boolean gameIsFinished = false;
+    private String incorrectLetters = "";
     private String secretWord ="";
     private int points = 10;
 
-    public  String getLetters() {
-        return this.letters;
+    public  String getGuesses() {
+        return this.incorrectLetters;
     }
 
-    public void addLetters(String inputLetter) {
-        if (this.letters.length() == 0) {
-            this.letters = inputLetter;
+    public void addGuess(String inputLetter) {
+        if (this.incorrectLetters.length() == 0) {
+            this.incorrectLetters = inputLetter;
         }
         else {
-            this.letters += " " + inputLetter;
+            this.incorrectLetters += " " + inputLetter;
         }
     }
 
@@ -40,6 +40,6 @@ public class LetterTracker {
     }
 
     public boolean getGameIsFinished() {
-        return this.gameIsFinished;
+        return this.points <= 0;
     }
 }
