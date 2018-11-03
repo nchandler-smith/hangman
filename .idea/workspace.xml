@@ -51,12 +51,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1985" />
+          <entry key="java" value="2465" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1985" />
+          <entry key="JAVA" value="2465" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LetterTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="371">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
               <folding>
                 <element signature="e#117#118#0" expanded="true" />
                 <element signature="e#152#153#0" expanded="true" />
@@ -104,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LetterTrackerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="416">
+              <caret line="93" column="46" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,8 +144,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="495" />
-    <option name="y" value="125" />
+    <option name="x" value="583" />
+    <option name="y" value="91" />
     <option name="width" value="1083" />
     <option name="height" value="796" />
   </component>
@@ -186,7 +186,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541274073852" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541275160499" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -234,7 +234,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterTrackerTest.PlayerStartsWith10Points" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LetterTrackerTest.CorrectGuessGameDoesNotEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hangman" />
       <extension name="coverage">
         <pattern>
@@ -244,13 +244,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
-      <option name="METHOD_NAME" value="PlayerStartsWith10Points" />
+      <option name="METHOD_NAME" value="CorrectGuessGameDoesNotEnd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterTrackerTest.PlayerStartsWith10PointsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LetterTrackerTest.CorrectGuessRemainsAt10PointsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hangman" />
       <extension name="coverage">
         <pattern>
@@ -260,7 +260,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
-      <option name="METHOD_NAME" value="PlayerStartsWith10PointsTest" />
+      <option name="METHOD_NAME" value="CorrectGuessRemainsAt10PointsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LetterTrackerTest.IncorrectGuessLoses1Point" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hangman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
+      <option name="METHOD_NAME" value="IncorrectGuessLoses1Point" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -282,37 +298,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterTrackerTest.secretWordEqualsNullOnStart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hangman" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.LetterTrackerTest" />
-      <option name="METHOD_NAME" value="secretWordEqualsNullOnStart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.game" />
       <item itemvalue="JUnit.LetterTrackerTest" />
-      <item itemvalue="JUnit.LetterTrackerTest.secretWordEqualsNullOnStart" />
-      <item itemvalue="JUnit.LetterTrackerTest.PlayerStartsWith10Points" />
-      <item itemvalue="JUnit.LetterTrackerTest.PlayerStartsWith10PointsTest" />
       <item itemvalue="JUnit.LetterTrackerTest.SecretWordSetToHangmanTest" />
+      <item itemvalue="JUnit.LetterTrackerTest.CorrectGuessRemainsAt10PointsTest" />
+      <item itemvalue="JUnit.LetterTrackerTest.IncorrectGuessLoses1Point" />
+      <item itemvalue="JUnit.LetterTrackerTest.CorrectGuessGameDoesNotEnd" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LetterTrackerTest" />
+        <item itemvalue="JUnit.LetterTrackerTest.CorrectGuessGameDoesNotEnd" />
+        <item itemvalue="JUnit.LetterTrackerTest.IncorrectGuessLoses1Point" />
+        <item itemvalue="JUnit.LetterTrackerTest.CorrectGuessRemainsAt10PointsTest" />
         <item itemvalue="JUnit.LetterTrackerTest.SecretWordSetToHangmanTest" />
-        <item itemvalue="JUnit.LetterTrackerTest.PlayerStartsWith10PointsTest" />
-        <item itemvalue="JUnit.LetterTrackerTest.PlayerStartsWith10Points" />
-        <item itemvalue="JUnit.LetterTrackerTest.secretWordEqualsNullOnStart" />
       </list>
     </recent_temporary>
   </component>
@@ -327,26 +327,11 @@
       <option name="presentableId" value="Default" />
       <updated>1541266497794</updated>
       <workItem from="1541266505485" duration="986000" />
-      <workItem from="1541268092035" duration="5925000" />
+      <workItem from="1541268092035" duration="6908000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 12m 55s.xml">
-      <configuration name="LetterTrackerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest_secretWordEqualsNullOnStart - 2018.11.03 at 14h 16m 06s.xml">
-      <configuration name="LetterTrackerTest.secretWordEqualsNullOnStart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 16m 13s.xml">
-      <configuration name="LetterTrackerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 17m 00s.xml">
-      <configuration name="LetterTrackerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 18m 19s.xml">
-      <configuration name="LetterTrackerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 23m 21s.xml">
       <configuration name="LetterTrackerTest" configurationId="JUnit" />
     </history-entry>
@@ -362,9 +347,24 @@
     <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 40m 43s.xml">
       <configuration name="LetterTrackerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LetterTrackerTest_CorrectGuessRemainsAt10PointsTest - 2018.11.03 at 14h 49m 02s.xml">
+      <configuration name="LetterTrackerTest.CorrectGuessRemainsAt10PointsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 49m 07s.xml">
+      <configuration name="LetterTrackerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest_IncorrectGuessLoses1Point - 2018.11.03 at 14h 50m 47s.xml">
+      <configuration name="LetterTrackerTest.IncorrectGuessLoses1Point" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest_IncorrectGuessLoses1Point - 2018.11.03 at 14h 53m 45s.xml">
+      <configuration name="LetterTrackerTest.IncorrectGuessLoses1Point" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTrackerTest - 2018.11.03 at 14h 53m 52s.xml">
+      <configuration name="LetterTrackerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6911000" />
+    <option name="totallyTimeSpent" value="7894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +376,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="495" y="125" width="1083" height="796" extended-state="0" />
+    <frame x="583" y="91" width="1083" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2545629" />
@@ -481,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LetterTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="371">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
             <element signature="e#117#118#0" expanded="true" />
             <element signature="e#152#153#0" expanded="true" />
@@ -498,8 +498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LetterTrackerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="416">
+          <caret line="93" column="46" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,7 @@
 package com.company;
 
 public class LetterTracker {
+    public boolean gameIsFinished;
     private String letters = "";
     private String secretWord ="";
     private int points = 10;
@@ -28,5 +29,17 @@ public class LetterTracker {
 
     public void setSecretWord(String wordIn) {
         this.secretWord = wordIn;
+    }
+
+    public void guessLetter(String inputLetter) {
+        if(this.secretWord.contains(inputLetter)){
+        }
+        else {
+            this.points -= 1;
+        }
+    }
+
+    public boolean getGameIsFinished() {
+        return this.gameIsFinished;
     }
 }

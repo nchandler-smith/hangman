@@ -63,4 +63,34 @@ class LetterTrackerTest {
 
         assertEquals("Hangman", tracker.getSecretWord());
     }
+
+    @Test
+    void CorrectGuessRemainsAt10PointsTest() {
+        LetterTracker tracker = new LetterTracker();
+        tracker.setSecretWord("hangman");
+
+        tracker.guessLetter("a");
+
+        assertEquals(10, tracker.getPoints());
+    }
+
+    @Test
+    void IncorrectGuessLoses1Point() {
+        LetterTracker tracker = new LetterTracker();
+        tracker.setSecretWord("hangman");
+
+        tracker.guessLetter("z");
+
+        assertEquals(9, tracker.getPoints());
+    }
+
+    @Test
+    void CorrectGuessGameDoesNotEnd(){
+        LetterTracker tracker = new LetterTracker();
+        tracker.setSecretWord("hangman");
+
+        tracker.guessLetter("h");
+
+        assertFalse(tracker.getGameIsFinished());
+    }
 }
