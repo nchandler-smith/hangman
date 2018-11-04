@@ -31,7 +31,8 @@ public class LetterTracker {
 
     public void setSecretWord(String wordIn) {
         this.secretWord = wordIn;
-        this.correctLetters = "_".repeat(this.secretWord.length());
+        //this.correctLetters = "_".repeat(this.secretWord.length());
+        this.correctLetters = new String(new char[this.getSecretWord().length()]).replace("\0", "_");
     }
 
     public void guessLetter(String inputLetter) {
