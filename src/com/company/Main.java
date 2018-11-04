@@ -1,5 +1,6 @@
 package com.company;
 
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Main {
@@ -7,6 +8,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         LetterTracker tracker = new LetterTracker();
+        WordSelector wordSelector = new WordSelector();
+
+        try {
+            wordSelector.loadList("wordlist.txt");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        tracker.setSecretWord(wordSelector.getRandomWordFromList());
 
         System.out.println("You are guessing:" + tracker.getCorrectLetters());
         System.out.println("You have guessed these wrong letters: " + tracker.getGuesses());
@@ -27,7 +36,8 @@ public class Main {
             System.out.println("YOU WON!!!");
         }
         else {
-            System.out.println("You lost. Better luck next time.");
+            System.out.println("You lost. Better luck next time." +
+                               "\nThe word was " + tracker.getSecretWord() + ".");
         }
     }
 }
