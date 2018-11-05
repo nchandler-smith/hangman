@@ -20,7 +20,6 @@ public class Main {
         System.out.println("You are guessing:" + tracker.getCorrectLetters());
         System.out.println("You have guessed these wrong letters: " + tracker.getGuesses());
         System.out.println("You have " + tracker.getPoints() + " points remaining.");
-        System.out.println(tracker.getSecretWord());
 
         while(!tracker.getGameIsFinished()) {
             System.out.println("Guess a letter: ");
